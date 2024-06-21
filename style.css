@@ -163,14 +163,9 @@ html{
 .banner-content{
     padding: 0 40px;
 }
-.banner-img{
-   
+.banner-img{ 
+    display:flex;
     height: 50%;
-    width: 50%;
-    top: -50%;
-    right: 5; 
-    display:inline-block;
-    height: 100%;
 }
 .banner-title{
     font-size: 30px;
