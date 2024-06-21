@@ -164,7 +164,7 @@ html{
     padding: 0 40px;
 }
 .banner-img{
-    display:flex;
+    display:inline-block;
     height: 100%;
 }
 .banner-title{
