@@ -158,14 +158,14 @@ html{
     box-shadow: -1px -1px 15px 3px rgba(0, 0, 0, 0.75);
 }
 .banner-content-container{
-    text-align: center;
+    text-align: left;
 }
 .banner-content{
     padding: 0 40px;
 }
-.banner-img{ 
+.banner-img{
     display:flex;
-    height: 50%;
+    height: 100%;
 }
 .banner-title{
     font-size: 30px;
