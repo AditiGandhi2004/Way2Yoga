@@ -158,7 +158,7 @@ html{
     box-shadow: -1px -1px 15px 3px rgba(0, 0, 0, 0.75);
 }
 .banner-content-container{
-    text-align: left;
+    text-align: center;
 }
 .banner-content{
     padding: 0 40px;
