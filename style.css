@@ -19,7 +19,7 @@ html{
     background-repeat: no-repeat;
     background-position: left;
     height: 100vh;
-    width: 500%;
+    width: 100%;
     position: relative;
 }
 .hero-content{
