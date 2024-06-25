@@ -475,3 +475,8 @@ input[type="submit"]:hover{
     background: #2a2a2a;
     padding: 10px;
 }
+@media screen and (max-width:600px)
+    {
+       
+
+    }
