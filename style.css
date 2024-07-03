@@ -806,10 +806,10 @@ button#submit-button:hover {
 /* Add mobile-friendly styles */
 
 /* For screens with a maximum width of 768px (e.g., iPads) */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   /* Adjust navigation */
  .navbar {
-    padding: 0.5rem;
+    padding: 0.2rem;
   }
  .navbar-brand {
     font-size: 1.5rem;
