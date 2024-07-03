@@ -1,4 +1,12 @@
 "use strict";
+function expandHamburger() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 
 (function ($) {
   $(window).on("load", function () {
@@ -84,7 +92,7 @@
           {
             scrollTop: $($anchor.attr("href")).offset().top - 49,
           },
-          1000
+          1000,
         );
       event.preventDefault();
     });
