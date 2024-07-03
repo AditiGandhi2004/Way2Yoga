@@ -873,6 +873,40 @@ button#submit-button:hover {
     font-size: 18px;
   }
 }
+
+...
+
+/* Extra Small Screens (0px to 575px) */
+@media (max-width: 480px) {
+  ...
+
+  /* Home About Section */
+  .home_about_text h2 {
+    font-size: 24px; /* Reduced font size for smaller screens */
+  }
+
+  .home_about_text .section-title {
+    font-size: 20px; /* Reduced font size for smaller screens */
+  }
+
+  .home_about_text span {
+    font-size: 14px; /* Reduced font size for smaller screens */
+  }
+
+  .home_about_text p.para-1,
+  .home_about_text p.para-2,
+  .home_about_text p.para-3 {
+    font-size: 14px; /* Reduced font size for smaller screens */
+  }
+
+  .section-title h2 {
+    font-size: 32px; /* Reduced font size for smaller screens */
+  }
+
+  .section-title p {
+    font-size: 14px; /* Reduced font size for smaller screens */
+  }
+}
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
 
