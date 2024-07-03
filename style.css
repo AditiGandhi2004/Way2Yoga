@@ -799,3 +799,142 @@ button#submit-button:hover {
       padding: 1rem;
   }
 }
+
+/* Add mobile-friendly styles */
+
+/* For screens with a maximum width of 768px (e.g., iPads) */
+@media (max-width: 768px) {
+  /* Adjust navigation */
+ .navbar {
+    padding: 0.5rem;
+  }
+ .navbar-brand {
+    font-size: 1.5rem;
+  }
+ .nav-item {
+    margin-right: 1rem;
+  }
+ .nav-link {
+    font-size: 1.2rem;
+  }
+
+  /* Adjust hero section */
+ .hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+ .bg-overlay {
+    opacity: 0.5;
+  }
+
+  /* Adjust section padding */
+ .section {
+    padding: 3rem 0;
+  }
+
+  /* Adjust font sizes */
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+
+  /* Adjust image sizes */
+ .img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjust layout for smaller screens */
+ .row {
+    flex-direction: column;
+  }
+ .col-md-6,.col-lg-4 {
+    width: 100%;
+  }
+
+  /* Adjust footer */
+ .footer {
+    padding: 2rem 0;
+  }
+ .footer_about {
+    margin-bottom: 1rem;
+  }
+ .footer_widget {
+    margin-bottom: 1rem;
+  }
+}
+
+/* For screens with a maximum width of 480px (e.g., smartphones) */
+@media (max-width: 480px) {
+  /* Adjust navigation */
+ .navbar {
+    padding: 0.2rem;
+  }
+ .navbar-brand {
+    font-size: 1.2rem;
+  }
+ .nav-item {
+    margin-right: 0.5rem;
+  }
+ .nav-link {
+    font-size: 1rem;
+  }
+
+  /* Adjust hero section */
+ .hero {
+    height: 50vh;
+  }
+
+  /* Adjust section padding */
+ .section {
+    padding: 2rem 0;
+  }
+
+  /* Adjust font sizes */
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+
+  /* Adjust image sizes */
+ .img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjust layout for smaller screens */
+ .row {
+    flex-direction: column;
+  }
+ .col-md-6,.col-lg-4 {
+    width: 100%;
+  }
+
+  /* Adjust footer */
+ .footer {
+    padding: 1rem 0;
+  }
+ .footer_about {
+    margin-bottom: 0.5rem;
+  }
+ .footer_widget {
+    margin-bottom: 0.5rem;
+  }
+}
