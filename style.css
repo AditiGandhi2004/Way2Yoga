@@ -857,7 +857,7 @@ button#submit-button:hover {
   color: var(--primary-color);
 }
 
-@media only screen and (max-width: 961px) {
+@media only screen and (max-width: 480px) {
   .offer-deal {
     flex-direction: column;
     align-items: center;
@@ -874,11 +874,11 @@ button#submit-button:hover {
   }
 }
 /* Media Query for Mobile Devices */
-@media (max-width: 961px) {
+@media (max-width: 480px) {
 
   .hero {
-  min-height: 50vh;
-    
+  min-height: 100vh;
+  }
   .heading-section h2 {
     font-size: 12px; /* Further reduction for smaller screens */
   }
