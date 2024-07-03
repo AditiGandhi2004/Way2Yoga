@@ -771,9 +771,6 @@ button#submit-button:hover {
 @media (max-width: 480px) {
 
   .hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh;
     
   .heading-section h2 {
