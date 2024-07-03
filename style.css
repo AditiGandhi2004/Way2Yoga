@@ -318,7 +318,7 @@ strong {
 }
 
 .offer-deal .text h3 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 
@@ -418,8 +418,8 @@ strong {
   letter-spacing: 2px;
 }
 .heading-section h2 {
-  font-size: 60px;
-  font-weight: 700;
+   font-weight: 400;
+  font-size: 40px;
   line-height: 1.1;
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
@@ -493,12 +493,13 @@ strong {
   left: 20px;
   height: 100%;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   font-size: 24px;
   z-index: 1;
   color: black;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Playfair Dispaly", serif;
+
 }
 .project .text h3 a {
   color: #fff;
@@ -527,7 +528,7 @@ strong {
 
 .classtime-section {
   background: #151515;
-  padding-top: 90px;
+  padding-top: 50px;
 }
 
 .classtime-section .section-title {
@@ -547,7 +548,8 @@ strong {
   list-style: none;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Oswald", sans-serif;
+  font-family: "Playfair Dispaly", serif;
+
   text-transform: uppercase;
   color: #ffffff;
   display: inline-block;
