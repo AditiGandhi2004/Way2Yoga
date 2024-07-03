@@ -968,20 +968,9 @@ button#submit-button:hover {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .hero {
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-  }
-  .bg-overlay {
-    background-size: cover;
-    background-position: center center;
-  }
-  #myVideo {
-    width: 100%;
-    height: auto;
-  }
-
+  
+ 
+  
   /* Adjust other elements */
   .project {
     width: 100%;
