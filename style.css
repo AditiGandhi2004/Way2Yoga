@@ -782,22 +782,26 @@ button#submit-button:hover {
   }
 
  /* Add this media query to make the classtime section mobile-friendly */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   .classtime-section {
     padding-top: 40px;
     padding-bottom: 40px;
+    min-height:50vh;
   }
   .classtime-table table {
     width: 100%;
     border: none;
     border-collapse: collapse;
+    min-height:50vh;
   }
   .classtime-table table thead {
     display: none;
+    min-height:50vh;
   }
   .classtime-table table tbody tr {
     display: block;
     margin-bottom: 20px;
+    min-height:50vh;
   }
   .classtime-table table tbody tr td {
     display: block;
@@ -805,23 +809,28 @@ button#submit-button:hover {
     border: none;
     padding: 10px;
     text-align: left;
+    min-height:50vh;
   }
   .classtime-table table tbody tr td.workout-time {
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
+    min-height:50vh;
   }
   .classtime-table table tbody tr td span {
     font-size: 14px;
+    min-height:50vh;
     color: #666;
   }
   .classtime-table table tbody tr td h6 {
     font-size: 16px;
     font-weight: 500;
     margin-top: 10px;
+    min-height:50vh;
   }
   .timetable-controls {
     text-align: left;
+    
   }
   .timetable-controls ul li {
     display: block;
