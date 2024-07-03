@@ -10,7 +10,7 @@
   --link-color: #404040;
   --p-color: #666262;
 
-  --base-font-family: "Plain", sans-serif;
+  --base-font-family: "Playfair Display", serif;
   --font-weight-bold: bold;
   --font-weight-normal: normal;
   --font-weight-light: 300;
@@ -200,7 +200,7 @@ body {
 }
 
 .bg-overlay {
-  background: var(--dark-color);
+  
   position: absolute;
   top: 0;
   right: 0;
