@@ -882,11 +882,12 @@ button#submit-button:hover {
 
   .classtime-section {
   background: #151515;
-  padding-top: 30px;
-    width: 120vh;
+ 
+  width: 120vh;
 }
   .classtime-table table {
     font-size: 12px;
+    width:100vh;
   }
   .classtime-table table thead tr th,
   .classtime-table table tbody tr td {
