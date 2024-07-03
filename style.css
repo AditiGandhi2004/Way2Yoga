@@ -2654,6 +2654,15 @@ button#submit-button:hover {
 }
 
 /* Media queries for mobile devices */
+  @media only screen and (max-width: 480px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+}
 @media (max-width: 480px) {
   nav ul {
       flex-direction: column;
@@ -2692,6 +2701,15 @@ button#submit-button:hover {
 /* Add mobile-friendly styles */
 
 /* For screens with a maximum width of 768px (e.g., iPads) */
+  @media only screen and (max-width: 480px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+}
 @media (max-width: 480px) {
   /* Adjust navigation */
  .navbar {
@@ -2761,6 +2779,15 @@ button#submit-button:hover {
 }
 
 /* For screens with a maximum width of 480px (e.g., smartphones) */
+  @media only screen and (max-width: 480px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+}
 @media (max-width: 480px) {
   /* Adjust navigation */
  .navbar {
