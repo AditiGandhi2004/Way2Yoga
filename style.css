@@ -857,10 +857,19 @@ button#submit-button:hover {
   color: var(--primary-color);
 }
 
-@media (max-width: 480px) {
-
+@media only screen and (max-width: 768px) {
   .hero {
-  min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #myVideo {
+    height: 100vh;
+    width: 100vw; /* Use vw instead of % to make it full screen */
+    object-fit: cover;
+  }
+  .bg-overlay {
+    height: 100vh;
+    width: 100vw; /* Use vw instead of % to make it full screen */
   }
 }
 
