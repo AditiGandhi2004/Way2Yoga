@@ -42,8 +42,6 @@
 
   $(".show-result-select").niceSelect();
 
-  function toggleMobileMenu(menu) {
-    menu.classList.toggle('open');
 }
   /*------------------
        Timetable Filter
