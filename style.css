@@ -245,6 +245,7 @@ strong {
 
 
 .home_about_text {
+  text-align: Center;
   padding-top: 35px;
 }
 .home_about_text h2 {
@@ -259,6 +260,7 @@ strong {
 }
 
 .home_about_text span {
+  text-align: Center;
   display: inline-block;
   font-size: 18px;
   color: #000000;
