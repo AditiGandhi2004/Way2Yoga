@@ -864,7 +864,7 @@ button#submit-button:hover {
   min-height: 100vh;
     
   .heading-section h2 {
-    font-size: 24px; /* Further reduction for smaller screens */
+    font-size: 12px; /* Further reduction for smaller screens */
   }
 
   .project .text h3 {
@@ -879,25 +879,22 @@ button#submit-button:hover {
   }
 }
 @media only screen and (max-width: 480px) {
-
   .classtime-section {
-  background: #151515;
- 
-  width: 120vh;
-}
-  .classtime-table table {
     font-size: 12px;
     width:100vh;
+  }
+  .classtime-table table {
+    font-size: 8px;
   }
   .classtime-table table thead tr th,
   .classtime-table table tbody tr td {
     padding: 10px;
   }
   .timetable-controls {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .timetable-controls ul li {
-    font-size: 14px;
+    font-size: 8px;
     margin-right: 40px;
   }
 }
@@ -927,3 +924,4 @@ button#submit-button:hover {
   }
 }
 
+}
