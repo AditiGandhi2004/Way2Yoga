@@ -767,3 +767,33 @@ button#submit-button:hover {
   color: var(--primary-color);
 }
 
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+
+  .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+    
+  .heading-section h2 {
+    font-size: 24px; /* Further reduction for smaller screens */
+  }
+
+  .project .text h3 {
+    font-size: 14px; /* Further reduction for smaller screens */
+  }
+
+  .timetable-controls ul li {
+    margin-right: 20px; /* Further reduction for smaller screens */
+  }
+
+  .footer_about ul li {
+    margin: 0 5px; /* Further reduction for smaller screens */
+  }
+
+  .footer_copyright_social a {
+    margin-right: 10px; /* Further reduction for smaller screens */
+  }
+}
+
