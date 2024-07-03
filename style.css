@@ -804,5 +804,29 @@ button#submit-button:hover {
     margin-right: 40px;
   }
 }
-  
+  @media only screen and (max-width: 480px) {
+  .classtime-table table tbody tr td {
+    width: auto;
+    padding: 10px;
+  }
+  .classtime-table table tbody tr td:after {
+    display: none;
+  }
+  .classtime-table table tbody tr td h6 {
+    font-size: 14px;
+  }
+  .classtime-table table tbody tr td span {
+    font-size: 14px;
+  }
+  .classtime-table table tbody tr td.workout-time {
+    font-size: 14px;
+  }
+  .timetable-controls {
+    margin-bottom: 20px;
+  }
+  .timetable-controls ul li {
+    font-size: 14px;
+    margin-right: 30px;
+  }
+}
 
