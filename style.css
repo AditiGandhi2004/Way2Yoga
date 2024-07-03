@@ -103,7 +103,9 @@ body {
 /* ********************************* */
 
 .hero {
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
   position: relative;
   overflow: hidden;
@@ -122,12 +124,14 @@ body {
 }
 
 #myVideo {
-  /* position: fixed; */
-  right: 0;
+  position: absolute; 
+  left: 0;
   bottom: 0;
+  width:100%;
+  height:auto;
   min-width: 100%;
   min-height: 100%;
-  display: flex;
+  
 }
 
 h1,
@@ -799,7 +803,6 @@ button#submit-button:hover {
       padding: 1rem;
   }
 }
-
 /* Add mobile-friendly styles */
 
 /* For screens with a maximum width of 768px (e.g., iPads) */
@@ -820,9 +823,7 @@ button#submit-button:hover {
 
   /* Adjust hero section */
  .hero {
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+  min-height:50vh
   }
  .bg-overlay {
     opacity: 0.5;
