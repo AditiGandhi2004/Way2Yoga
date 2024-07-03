@@ -857,11 +857,27 @@ button#submit-button:hover {
   color: var(--primary-color);
 }
 
+@media only screen and (max-width: 961px) {
+  .offer-deal {
+    flex-direction: column;
+    align-items: center;
+  }
+  .offer-deal .img {
+    width: 150px;
+    height: 150px;
+  }
+  .offer-deal .text {
+    margin-top: 20px;
+  }
+  .offer-deal .text h3 {
+    font-size: 18px;
+  }
+}
 /* Media Query for Mobile Devices */
-@media (max-width: 480px) {
+@media (max-width: 961px) {
 
   .hero {
-  min-height: 100vh;
+  min-height: 50vh;
     
   .heading-section h2 {
     font-size: 12px; /* Further reduction for smaller screens */
