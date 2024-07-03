@@ -857,6 +857,13 @@ button#submit-button:hover {
   color: var(--primary-color);
 }
 
+@media (max-width: 480px) {
+
+  .hero {
+  min-height: 100vh;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .offer-deal {
     flex-direction: column;
@@ -874,15 +881,11 @@ button#submit-button:hover {
   }
 }
 
-...
-
-/* Extra Small Screens (0px to 575px) */
 @media (max-width: 480px) {
-  ...
-
+  
   /* Home About Section */
   .home_about_text h2 {
-    font-size: 24px; /* Reduced font size for smaller screens */
+    font-size: 12px; /* Reduced font size for smaller screens */
   }
 
   .home_about_text .section-title {
@@ -890,13 +893,13 @@ button#submit-button:hover {
   }
 
   .home_about_text span {
-    font-size: 14px; /* Reduced font size for smaller screens */
+    font-size: 12px; /* Reduced font size for smaller screens */
   }
 
   .home_about_text p.para-1,
   .home_about_text p.para-2,
   .home_about_text p.para-3 {
-    font-size: 14px; /* Reduced font size for smaller screens */
+    font-size: 12px; /* Reduced font size for smaller screens */
   }
 
   .section-title h2 {
@@ -907,71 +910,4 @@ button#submit-button:hover {
     font-size: 14px; /* Reduced font size for smaller screens */
   }
 }
-/* Media Query for Mobile Devices */
-@media (max-width: 480px) {
 
-  .hero {
-  min-height: 100vh;
-  }
-  .heading-section h2 {
-    font-size: 12px; /* Further reduction for smaller screens */
-  }
-
-  .project .text h3 {
-    font-size: 14px; /* Further reduction for smaller screens */
-  }
-.footer_about ul li {
-    margin: 0 5px; /* Further reduction for smaller screens */
-  }
-
-  .footer_copyright_social a {
-    margin-right: 10px; /* Further reduction for smaller screens */
-  }
-}
-@media only screen and (max-width: 480px) {
-  .classtime-section {
-    font-size: 12px;
-    width:100vh;
-  }
-  .classtime-table table {
-    font-size: 8px;
-  }
-  .classtime-table table thead tr th,
-  .classtime-table table tbody tr td {
-    padding: 10px;
-  }
-  .timetable-controls {
-    margin-bottom: 10px;
-  }
-  .timetable-controls ul li {
-    font-size: 8px;
-    margin-right: 40px;
-  }
-}
-  @media only screen and (max-width: 480px) {
-  .classtime-table table tbody tr td {
-    width: auto;
-    padding: 10px;
-  }
-  .classtime-table table tbody tr td:after {
-    display: none;
-  }
-  .classtime-table table tbody tr td h6 {
-    font-size: 14px;
-  }
-  .classtime-table table tbody tr td span {
-    font-size: 14px;
-  }
-  .classtime-table table tbody tr td.workout-time {
-    font-size: 14px;
-  }
-  .timetable-controls {
-    margin-bottom: 20px;
-  }
-  .timetable-controls ul li {
-    font-size: 14px;
-    margin-right: 30px;
-  }
-}
-
-}
