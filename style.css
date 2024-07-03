@@ -516,7 +516,7 @@ strong {
 }
 .project:hover .icon,
 .project:focus .icon {
-  top: 50px;
+  top: 30px;
   opacity: 1;
 }
 .project:hover img,
@@ -528,11 +528,11 @@ strong {
 
 .classtime-section {
   background: #151515;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .classtime-section .section-title {
-  margin-bottom: 48px;
+  margin-bottom: 38px;
   color: white;
 }
 
@@ -879,6 +879,12 @@ button#submit-button:hover {
   }
 }
 @media only screen and (max-width: 480px) {
+
+  .classtime-section {
+  background: #151515;
+  padding-top: 30px;
+    width: 120vh;
+}
   .classtime-table table {
     font-size: 12px;
   }
