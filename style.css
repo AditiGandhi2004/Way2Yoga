@@ -271,11 +271,11 @@ strong {
 .home_about_text p.para-1 {
   text-align: Center;
   margin-bottom: 40px;
-  .home_about_text p.para-2 {
-    text-align: Center;
+.home_about_text p.para-2 {
+  text-align: Center;
   margin-bottom: 40px;
-    .home_about_text p.para-1 {
-      text-align: Center;
+ .home_about_text p.para-1 {
+   text-align: Center;
   margin-bottom: 40px;
 
 }
