@@ -939,3 +939,79 @@ button#submit-button:hover {
     margin-bottom: 0.5rem;
   }
 }
+/* Add this to the existing code */
+
+/* Mobile-friendly styles */
+@media only screen and (max-width: 768px) {
+  /* Adjust font sizes */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+
+  /* Adjust padding and margins */
+  .section {
+    padding: 3rem 0;
+  }
+  .ftco-section {
+    padding: 3em 0;
+  }
+  .spad {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* Adjust layout for smaller screens */
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+  }
+  .bg-overlay {
+    background-size: cover;
+    background-position: center center;
+  }
+  #myVideo {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjust other elements */
+  .project {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  .project .text {
+    padding: 1em;
+  }
+  .classtime-table table {
+    font-size: 0.8em;
+  }
+  .classtime-table table thead tr th {
+    padding: 10px 5px;
+  }
+  .classtime-table table tbody tr td {
+    padding: 10px 5px;
+  }
+  .footer {
+    padding-top: 30px;
+  }
+  .footer_about ul li {
+    line-height: 25px;
+  }
+  .footer_widget ul li {
+    line-height: 25px;
+  }
+}
+
+/* Add this to the existing code */
