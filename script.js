@@ -42,7 +42,6 @@
 
   $(".show-result-select").niceSelect();
 
-}
   /*------------------
        Timetable Filter
     --------------------*/
