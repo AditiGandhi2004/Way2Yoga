@@ -345,7 +345,7 @@ strong {
 }
 
 .home_about_text .section-title {
-  text-align: Center;
+  text-align: left;
   margin-bottom: 24px;
   font-weight: 400;
   font-weight: var(--font-weight-bold);
@@ -418,8 +418,8 @@ strong {
   letter-spacing: 2px;
 }
 .heading-section h2 {
-   font-weight: 400;
-  font-size: 40px;
+   font-weight: 200;
+  font-size: 20px;
   line-height: 1.1;
   font-family: "Playfair Display", serif;
   text-transform: uppercase;
