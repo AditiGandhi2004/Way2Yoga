@@ -376,14 +376,15 @@ strong {
 .home_about_text span {
  text-align: center;
   display: flex;
-  font-size: 18px;
+  font-size: 20px;
   color: #000000;
+  margin-right:20px;
   margin-bottom: 12px;
   font-weight: var(--font-weight-bold)
 }
 .home_about_text p.para-0 {
   margin-bottom: 40px;
-  margin-left: 100px;
+ margin-right:40px;
   text-align: center;
   display: flex;
   color: #801212;
