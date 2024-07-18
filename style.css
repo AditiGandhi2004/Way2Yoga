@@ -226,15 +226,19 @@ body {
   .hero {
     height: 100vh;
     overflow: hidden;
+     font-size: 14px; /* Reduced font size for smaller screens */
   }
   #myVideo {
     height: 100vh;
     width: 100vw; /* Use vw instead of % to make it full screen */
     object-fit: cover;
+     font-size: 14px; /* Reduced font size for smaller screens */
   }
   .bg-overlay {
     height: 100vh;
     width: 100vw; /* Use vw instead of % to make it full screen */
+     font-size: 14px; /* Reduced font size for smaller screens */
+    
   }
 }
 
