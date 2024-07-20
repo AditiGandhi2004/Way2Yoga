@@ -422,17 +422,17 @@ strong {
   .home_about_text p.para-2,
   .home_about_text p.para-3 {
     font-size: 12px; /* Reduced font size for smaller screens */
-    margin-left:60px; /* Reduced font size for smaller screens */
+    margin-left:40px; /* Reduced font size for smaller screens */
   }
 
   .section-title h2 {
     font-size: 32px; /* Reduced font size for smaller screens */
-    margin-left:60px; /* Reduced font size for smaller screens */
+    margin-left:40px; /* Reduced font size for smaller screens */
   }
 
   .section-title p {
     font-size: 14px; /* Reduced font size for smaller screens */
-    margin-left:60px; /* Reduced font size for smaller screens */
+    margin-left:40px; /* Reduced font size for smaller screens */
   }
 }
 
