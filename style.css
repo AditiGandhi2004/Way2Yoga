@@ -374,26 +374,26 @@ strong {
 }
 .home_about_text p.para-1 {
   margin-bottom: 40px;
-  margin-left:40px;
+  margin-left:60px;
   text-align: center;
   display: flex;
 }
 .home_about_text p.para-2 {
   margin-bottom: 40px;
-  margin-left:40px;
+  margin-left:460px;
   text-align: center;
   display: flex;
 }
 .home_about_text p.para-3 {
   margin-bottom: 40px;
-  margin-left:40px;
+  margin-left:60px;
   text-align: center;
   display: flex;
 }
 
 .section-title h2 {
   font-weight: 400;
-  font-size: 40px;
+  font-size: 60px;
   font-family: "Playfair Display", serif;
   text-transform: uppercase;
 }
@@ -422,17 +422,17 @@ strong {
   .home_about_text p.para-2,
   .home_about_text p.para-3 {
     font-size: 12px; /* Reduced font size for smaller screens */
-    margin-left:80px; /* Reduced font size for smaller screens */
+    margin-left:60px; /* Reduced font size for smaller screens */
   }
 
   .section-title h2 {
     font-size: 32px; /* Reduced font size for smaller screens */
-    margin-left:80px; /* Reduced font size for smaller screens */
+    margin-left:60px; /* Reduced font size for smaller screens */
   }
 
   .section-title p {
     font-size: 14px; /* Reduced font size for smaller screens */
-    margin-left:80px; /* Reduced font size for smaller screens */
+    margin-left:60px; /* Reduced font size for smaller screens */
   }
 }
 
