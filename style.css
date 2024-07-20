@@ -221,6 +221,21 @@ body {
   min-height: 100%;
   
 }
+@media only screen and (max-width: 480px) {
+  .hero {
+    height: 100vh;
+    overflow: hidden;
+  }
+  #myVideo {
+    height: 100vh;
+    width: 100vw; /* Use vw instead of % to make it full screen */
+    object-fit: cover;
+  }
+  .bg-overlay {
+    height: 100vh;
+    width: 100vw; /* Use vw instead of % to make it full screen */
+  }
+}
 
 h1,
 h2,
@@ -422,17 +437,17 @@ strong {
   .home_about_text p.para-2,
   .home_about_text p.para-3 {
     font-size: 12px; /* Reduced font size for smaller screens */
-    margin-left:20px; /* Reduced font size for smaller screens */
+    margin-left:10px; /* Reduced font size for smaller screens */
   }
 
   .section-title h2 {
     font-size: 32px; /* Reduced font size for smaller screens */
-    margin-left:20px; /* Reduced font size for smaller screens */
+    margin-left:10px; /* Reduced font size for smaller screens */
   }
 
   .section-title p {
     font-size: 14px; /* Reduced font size for smaller screens */
-    margin-left:20px; /* Reduced font size for smaller screens */
+    margin-left:10px; /* Reduced font size for smaller screens */
   }
 }
 
@@ -915,21 +930,6 @@ button#submit-button:hover {
   color: var(--primary-color);
 }
 
-@media only screen and (max-width: 480px) {
-  .hero {
-    height: 100vh;
-    overflow: hidden;
-  }
-  #myVideo {
-    height: 100vh;
-    width: 100vw; /* Use vw instead of % to make it full screen */
-    object-fit: cover;
-  }
-  .bg-overlay {
-    height: 100vh;
-    width: 100vw; /* Use vw instead of % to make it full screen */
-  }
-}
 
 @media only screen and (max-width: 480px) {
   .offer-deal {
