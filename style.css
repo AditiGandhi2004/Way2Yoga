@@ -19,7 +19,7 @@
   --h1-font-size: 48px;
   --h2-font-size: 36px;
   --h3-font-size: 28px;
-  --h4-font-size: 20px;
+  --h4-font-size: 24px;
   --h5-font-size: 22px;
   --h6-font-size: 22px;
   --p-font-size: 18px;
@@ -221,26 +221,6 @@ body {
   min-height: 100%;
   
 }
-@media only screen and (max-width: 480px) {
- 
-  .hero {
-    height: 100vh;
-    overflow: hidden;
-     font-size: 14px; /* Reduced font size for smaller screens */
-  }
-  #myVideo {
-    height: 100vh;
-    width: 100vw; /* Use vw instead of % to make it full screen */
-    object-fit: cover;
-     font-size: 14px; /* Reduced font size for smaller screens */
-  }
-  .bg-overlay {
-    height: 100vh;
-    width: 100vw; /* Use vw instead of % to make it full screen */
-     font-size: 14px; /* Reduced font size for smaller screens */
-    
-  }
-}
 
 h1,
 h2,
@@ -369,22 +349,21 @@ strong {
   text-align: center;
   margin-bottom: 24px;
   font-weight: 400;
-
+  margin-left:70px;
   font-weight: var(--font-weight-bold);
 }
 
 .home_about_text span {
- text-align: center;
+ 
   display: flex;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
-  margin-right:20px;
   margin-bottom: 12px;
   font-weight: var(--font-weight-bold)
 }
 .home_about_text p.para-0 {
   margin-bottom: 40px;
- margin-right:40px;
+  margin-left: 120px;
   text-align: center;
   display: flex;
   color: #801212;
@@ -422,6 +401,39 @@ strong {
 .section-title p {
   padding-top: 15px;
   margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  
+  /* Home About Section */
+  .home_about_text h2 {
+    font-size: 12px; /* Reduced font size for smaller screens */
+  }
+
+  .home_about_text .section-title {
+    font-size: 20px; /* Reduced font size for smaller screens */
+  }
+
+  .home_about_text span {
+    font-size: 12px; /* Reduced font size for smaller screens */
+  }
+  .home_about_text p.para-0,
+  .home_about_text p.para-1,
+  .home_about_text p.para-2,
+  .home_about_text p.para-3 {
+    font-size: 12px; /* Reduced font size for smaller screens */
+    margin-right:20px; /* Reduced font size for smaller screens */
+  }
+
+  .section-title h2 {
+    font-size: 32px; /* Reduced font size for smaller screens */
+    margin-right:20px; /* Reduced font size for smaller screens */
+  }
+
+  .section-title p {
+    font-size: 14px; /* Reduced font size for smaller screens */
+    margin-right:20px; /* Reduced font size for smaller screens */
+  }
 }
 
 .ftco-no-pt {
@@ -936,33 +948,4 @@ button#submit-button:hover {
   }
 }
 
-@media (max-width: 480px) {
-  
-  /* Home About Section */
-  .home_about_text h2 {
-    font-size: 12px; /* Reduced font size for smaller screens */
-  }
-
-  .home_about_text .section-title {
-    font-size: 20px; /* Reduced font size for smaller screens */
-  }
-
-  .home_about_text span {
-    font-size: 12px; /* Reduced font size for smaller screens */
-  }
-
-  .home_about_text p.para-1,
-  .home_about_text p.para-2,
-  .home_about_text p.para-3 {
-    font-size: 12px; /* Reduced font size for smaller screens */
-  }
-
-  .section-title h2 {
-    font-size: 32px; /* Reduced font size for smaller screens */
-  }
-
-  .section-title p {
-    font-size: 14px; /* Reduced font size for smaller screens */
-  }
-}
 
