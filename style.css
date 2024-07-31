@@ -1062,37 +1062,25 @@ strong {
   display: flex;
 }
 
+/* Add this code to the CSS file to style the Google Form container */
 
-.webform input,
-button#submit-button {
-  height: calc(2.25rem + 20px);
+.google-form-container {
+  width: 80%; /* adjust the width to fit your needs */
+  margin: 40px auto; /* adjust the margin to fit your needs */
+  padding: 20px; /* adjust the padding to fit your needs */
+  border: 1px solid #ccc; /* adjust the border to fit your needs */
+  border-radius: 10px; /* adjust the border radius to fit your needs */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adjust the box shadow to fit your needs */
 }
 
-.form-control {
-  border-radius: var(--border-radius-small);
-  margin: 1.3rem 0;
+.google-form-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
-.form-control:focus {
-  box-shadow: none;
-  border-color: var(--dark-color);
-}
 
-button#submit-button {
-  background: var(--dark-color);
-  border-color: transparent;
-  color: var(--white-color);
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
 
-button#submit-button:hover {
-  background: var(--primary-color);
-}
-
-.contact h2 + p {
-  max-width: 90%;
-}
 
 .google-map {
   border-top: 1px solid #efebeb;
