@@ -1055,6 +1055,12 @@ strong {
   text-align: center;
   display: flex;
 }
+.section-heading text-center wow fadeInUp p.para-43 {
+  margin-bottom: 40px;
+  margin-left:20px;
+  text-align: center;
+  display: flex;
+}
 
 
 .webform input,
